@@ -1,4 +1,4 @@
-#"#"以降は、コメントとして認識される
+#"#"以降は、コメントとして認識される。つまり使いたい機能があれば#を抜けばOK
 
 #InitializeScene.IsImportDemoSaveData = true # デモ用のセーブデータを入れる
 #ResourceCache.EnableLoadDirect = true # アセットバンドルを作成しないで直接読み込むのを有効にする
