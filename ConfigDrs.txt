@@ -1,3 +1,4 @@
+#スーパーダンガンロンパ2 さよなら絶望学園 Anniversary Editionで使うファイル
 #"#"以降は、コメントとして認識される。つまり使いたい機能があれば#を抜けばOK
 
 #InitializeScene.IsImportDemoSaveData = true # デモ用のセーブデータを入れる
