@@ -1,6 +1,7 @@
 #スーパーダンガンロンパ2 さよなら絶望学園 Anniversary Editionで使うファイル
 #"#"以降は、コメントとして認識される。つまり使いたい機能があれば#を抜けばOK
 
+#GameSetting.BuildType=Release
 #InitializeScene.IsImportDemoSaveData = true # デモ用のセーブデータを入れる
 #ResourceCache.EnableLoadDirect = true # アセットバンドルを作成しないで直接読み込むのを有効にする
 #ResourceCache.LogEnabled = true # ResourceCacheのログを表示する
@@ -18,11 +19,7 @@
 
 #Unicom.TimeoutMilliseconds = 3000 # ネイティブとの通信のタイムアウトの時間（デフォルトは3000）
 
-#InitializeScene.TitleSelectorEnabled = false # タイトルセレクター(DR1/DR2の切り替え等)の有効化
-#GameSetting.DebugMenuEnabled = true # デバッグメニューが有効
-#GameSetting.HidePadUi = true # パッド用のUIを非表示にするかどうか（デバッグ用）
-#GameSetting.DebugAutoLoadNo = 1 # 自動的に番号指定したデータをロードする（デバッグ用）0:無効 1以上:有効
-#GameSetting.DebugAutoSelectMenuNo = 0 # 自動的に番号指定したメニューを選択する(デバッグ用) 0:CONTINUE 1:CHAPTER 2:SCHOOL MODE ...
+#InitializeScene.TitleSelectorEnabled = true # タイトルセレクター(DR1/DR2の切り替え等)の有効化
 
 #MtbView.OnePunch = true # マシンガントークバトルで敵を一撃で倒す
 #MtbView.Immortal = true # マシンガントークバトルでダメージを受けない
@@ -37,10 +34,17 @@
 
 #BriefingView.Skip = true # すぐに裁判開始
 
-#MoviePlayerView.SkipOpening = true #オープニングムービーを飛ばす
+MoviePlayerView.SkipOpening = true #オープニングムービーを飛ばす
 
 #AudioManager.SendPlayEndSec = 0.5 #再生終了通知の遅延時間(秒)
 
+GameSetting.DebugMenuSpeedupEnabled = true # 高速化ボタン
+GameSetting.DebugMenuShowButton = true # DEVボタン
+GameSetting.DebugAllLanguageLoad = true
+GameSetting.DebugMenuEnabled = true # デバッグメニューが有効
+#GameSetting.HidePadUi = true # パッド用のUIを非表示にするかどうか（デバッグ用）
+#GameSetting.DebugAutoLoadNo = 1 # 自動的に番号指定したデータをロードする（デバッグ用）0:無効 1以上:有効
+#GameSetting.DebugAutoSelectMenuNo = 0 # 自動的に番号指定したメニューを選択する(デバッグ用) 0:CONTINUE 1:CHAPTER 2:SCHOOL MODE ...
 
 #===========================================================
 # ダウンロードなし版の設定
@@ -214,4 +218,3 @@ AudioProcessor.VisualizerScale = 3.0 # サウンドビジュアライザの振�
 Dr2SelectView.WaitSecond = 0.7 # 選択肢が表示されてから入力を受け付けるまでの待ち時間
 
 Dr2SelectView.WaitSecondForYesNo = 0.2 # はい、いいえの選択肢が表示されてから入力を受け付けるまでの待ち時間
-
